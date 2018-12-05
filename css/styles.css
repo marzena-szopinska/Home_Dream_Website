@@ -45,3 +45,9 @@ header div.center-text {
   text-align: center;
   text-transform: uppercase;
 }
+
+header div.center-text h1 {
+  font-size: 300%;
+  margin-bottom: 2%;
+  color: #fff;
+}
