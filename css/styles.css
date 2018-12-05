@@ -36,3 +36,12 @@ header {
   url(../images/background.jpeg) no-repeat center;
   background-size: cover;
 }
+
+header div.center-text {
+  width: 80%;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  text-align: center;
+  text-transform: uppercase;
+}
