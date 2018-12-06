@@ -33,7 +33,7 @@ header {
   width: 100%;
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
-  url(../images/background.jpeg) no-repeat center;
+  url(../images/background.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -48,7 +48,7 @@ header div.center-text {
 
 header div.center-text h1 {
   font-size: 300%;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   color: #fff;
 }
 
@@ -60,7 +60,7 @@ header div.center-text p {
 }
 
 header div.center-text a {
-  background: transparent;
+  background: rgba(255, 244, 255, .4);
   color: #fff;
   border: 2px solid #fff;
   padding: 1% 2%;
