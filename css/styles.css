@@ -219,11 +219,6 @@ section.our-team div.column img {
     width: 100%;
     display: block;
     margin: auto;
-    transition: opacity .4s;
-}
-
-section.our-team div.column img:hover {
-    opacity: .9;
 }
 
 section.our-team div.column details summary {
