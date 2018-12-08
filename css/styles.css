@@ -165,6 +165,11 @@ section.one-of-two-sections figure figcaption {
     background: linear-gradient(to right, #333, #aaa);
 }
 
+section.first figure img {
+  /* make the pictures the same height */
+  height: 300px;
+}
+
 section.one-of-two-sections figure img {
     width: 100%;
     margin: 0;
