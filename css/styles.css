@@ -582,5 +582,43 @@ footer h2 {
      width: 100%;
    }
 
+   /* *************************************** */
 
+   section.gallery img {
+     float: none;
+     width: 50%;
+     margin: 5% auto;
+     opacity: .6;
+     transform: scale(1.3, 1.3) rotate(20deg);
+   }
+
+   section.gallery img:hover {
+     transform: scale(1.9, 1.9) rotate(0deg);
+   }
+
+   section.gallery img:hover:first-child,
+   section.gallery img:hover:last-child {
+     transform: scale(1.9, 1.9) rotate(0deg);
+   }
+
+   /* *************************************** */
+
+   footer div {
+     width: 100%;
+     float: none;
+     margin-bottom: 10%;
+   }
+
+   footer div.email form input {
+     margin: 4% auto;
+   }
+
+   footer div.languages {
+     text-align: center;
+   }
+
+   footer div.languages a {
+     width: 40%;
+     margin-left: 30%;
+   }
  }
