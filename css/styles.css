@@ -241,7 +241,7 @@ section.our-team div.column details p {
 
 section.video {
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)),url(video/video-bg.jpg) no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),url(../video/video-bg.jpg) no-repeat center;
   background-size: cover;
   padding: 5% 0;
   margin-bottom: 3%;
@@ -364,7 +364,7 @@ section.gallery img:hover:last-child {
 
 footer {
   width: 100%;
-  padding: 5% 0 10% 0;
+  padding: 5% 0 1% 0;
   background: url(../images/footer-bg.png) no-repeat top;
   background-color: #4169e1;
   background-size: cover;
@@ -416,3 +416,171 @@ footer div.stay-tuned a i.fa-twitter-square:hover {
 footer div.stay-tuned a i.fa-instagram:hover {
   background: #125688;
 }
+
+footer div.email form input {
+  display: block;
+  margin: 13% auto 0 auto;
+  font-size: 90%;
+  border: 2px solid #ccc;
+  width: 60%;
+  padding: 1%;
+  background: transparent;
+  color: #ddd;
+}
+
+footer div.email form input:focus {
+  border: 2px solid #fff;
+}
+
+footer div.languages a {
+  display: block;
+  width: 30%;
+  margin: 4% auto;
+  color: #ddd;
+}
+
+footer div.languages a:hover {
+  color: #fff;
+}
+
+footer div.languages a#en:before {
+  content: url(../images/language-icons/USA-icon.png);
+}
+
+footer div.languages a#sp:before {
+  content: url(../images/language-icons/Spain-icon.png);
+}
+
+footer div.languages a#fr:before {
+  content: url(../images/language-icons/France-icon.png);
+}
+
+footer div.languages a#it:before {
+  content: url(../images/language-icons/Italy-icon.png);
+}
+
+footer h2 {
+  width: 80%;
+  margin: auto;
+  padding: 3% 0 2% 0;
+  overflow: hidden;
+  font-size: 100%;
+  font-style: italic;
+  text-align: center;
+  color: #777;
+}
+
+/* MEDIA QURIES */
+ @media only screen and (max-width: 768px) {
+   body {
+     font-size: 18px;
+   }
+
+   header div.center-text h1 {
+     font-size: 200%;
+     margin-bottom: 10%;
+   }
+
+   header div.center-text p {
+     font-size: 110%;
+     margin-bottom: 10%;
+   }
+
+   header div.center-text a {
+     width: 100%;
+     padding: 2% 3%;
+     font-size: 110%;
+     text-transform: capitalize;
+   }
+
+   header nav.header-nav {
+     width: 50%;
+     left: -50%;
+   }
+
+   input#nav-control:checked ~ div.header-clear header {
+     width: 50%;
+   }
+
+   header nav.header-nav ul a {
+     font-size: 110%;
+     padding: 5% 0 0 8%;
+   }
+
+   /* *************************************** */
+
+   section.one-of-two-sections {
+     width: 100%;
+   }
+
+   section.one-of-two-sections figure {
+     float: none;
+     width: 95%;
+     margin: 0 auto 5% auto;
+   }
+
+   section.second figure img {
+     transform: scale(.8, .8);
+   }
+
+   /* *************************************** */
+
+   section.our-team {
+     width: 100%;
+   }
+
+   section.our-team div.column {
+     float: none;
+     width: 100%;
+     margin-bottom: 3%;
+   }
+
+   section.our-team div.column details p {
+     width: 93%;
+     margin: 0 auto;
+   }
+
+   section.our-team div.column details summary {
+     font-size: 100%;
+   }
+
+   /* *************************************** */
+
+   section.video {
+     padding: 0;
+   }
+
+   section.video div.video-wrapper {
+     float: none;
+     width: 100%;
+     overflow: hidden;
+     margin-bottom: 5%;
+   }
+
+   section.video div.video-wrapper video {
+     width: 100%;
+     margin: 0;
+   }
+
+   section.video div.text-wrapper {
+     float: none;
+     width: 100%;
+   }
+
+   section.video div.text-wrapper p {
+     padding: 0 3% 4% 3%;
+   }
+
+   /* *************************************** */
+
+   section.google-map div {
+     width: 100%;
+     float: none;
+   }
+
+   section.google-map div form {
+     width: 100%;
+   }
+
+
+ }
